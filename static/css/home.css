@@ -7,8 +7,6 @@
 html,body { height:100%;
 }
 
-
-
 .container-fluid {
     background-color: #F7F7F2;
     background-size: 100%;
@@ -17,7 +15,7 @@ html,body { height:100%;
 
 .jumbotron {
     background-color: #CCE6F4;
-    margin: 15px 50px 15px 50px;
+    margin: 20px 60px 20px 60px;
 }
 
 h1 {
