@@ -2,23 +2,36 @@
 /*
 #3E78B2 middle blue
 #6E7E85 light green
+#CCE6F4 light blue
 */
-
-html,body { height:100%;
-}
-
-.container-fluid {
+#theback {
     background-color: #F7F7F2;
     background-size: 100%;
 
 }
 
-.jumbotron {
-    background-color: #CCE6F4;
+/*.jumbotron {
+    background-color: #F7F7F2;
     margin: 20px 60px 20px 60px;
+}*/
+
+.navbar {
+    background-color: #3E78B2;
+
 }
 
-h1 {
-    color: #011638;
+.navbar-default .navbar-nav li a {
+    color: #F7F7F2;
+    font-weight: bold;
+    text-transform: uppercase;
 }
+
+.navbar-default .navbar-brand {
+    color: #F7F7F2;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+
 

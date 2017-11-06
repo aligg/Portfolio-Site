@@ -5,43 +5,46 @@
     <link rel="stylesheet" type="text/css" href="static/css/home.css">
     </head>
 <body>
-    <div class="container-fluid">
-        <div class="nav nav-bar default navbar-fixed-top">
-            <div class="container">
-                <ul class="collapse navbar-nav navbar-right">
-                    <li class="active">
-                        <a class="scrollable" href="#">About</a>
-                    </li>
-                    <li>
-                        <a class="scrollable" href="#">Porfolio</a>
-                    </li>
-                    <li>
-                        <a class="scrollable" href="#">Adventure</a>
-                    </li>
-                    <li>
-                        <a class="scrollable" href="#">Contact</a>
-                    </li>
+<div class="container-fluid" id="theback">
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">
+                    <img alt="Home" src="...">
+                </a>
+            </div>
+            <nav class="collapse navbar-collapse" id="navbar" role="navigation">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a class="scrollable" href="#">About</a></li>
+                    <li><a class="scrollable" href="#portfolio">Portfolio</a></li>
+                    <li><a class="scrollable" href="#">Adventure</a></li>
+                    <li><a class="scrollable" href="#">Contact</a></li>
                 </ul>
-            </div>
+            </nav>
         </div>
-        <div class="jumbotron">
-            <div class="row">
-                <h1 class="text-left">Ali Butler-Glenesk</h1>
+    </nav>
+    <div class="container-fluid">
+        <div 
+        <div class="row">
+            <div class="col-sm-4">
+                <img class="img-responsive img-rounded" src="static/images/hike.png">
             </div>
-            <div class="row">
-                <div class="col-sm-4">
-                    <img class="img-responsive img-circle" src="static/images/ali.png">
-                </div>
+            <section id="about">
                 <div class="col-sm-6">
-                    <p>software engineer, runner</p>
+                    <h3> Ali Butler-Glenesk </h3>
+                    <p>software engineer, former internet policy worker, arabic student, writer, runner, partner, daughter. </p>
                 </div>
-            </div>
+            </section>
+        </div>
+        <a name="portfolio"><section id="portfolio"></a>
             <div class="row">
                 <div class="col-sm-12">
-                    <p>Porfolio</p>
+                    <h3>Porfolio</h3>
                 </div>
             </div>
-        </div>
+        </section>
     </div>
+
+</div>
 </body>
 </html>
