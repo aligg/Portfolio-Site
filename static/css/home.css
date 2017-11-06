@@ -4,6 +4,11 @@
 #6E7E85 light green
 */
 
+html,body { height:100%;
+}
+
+
+
 .container-fluid {
     background-color: #F7F7F2;
     background-size: 100%;
@@ -12,9 +17,10 @@
 
 .jumbotron {
     background-color: #CCE6F4;
-    margin: 10px 50px 10px 50px;
+    margin: 15px 50px 15px 50px;
 }
 
 h1 {
     color: #011638;
 }
+
