@@ -31,7 +31,50 @@
     font-weight: bold;
     text-transform: uppercase;
 }
+#about {
+    padding: 40px;
+}
 
+section {
+    margin-top: 50px;
+}
 
+img.img-responsive.img-rounded.portfolio {
+    max-height: 330px;
+}
+
+p { color: #1B4079;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-size: 120%;
+
+}
+
+h2 {
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    color: #1B4079;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+ .fa-fw .fa-lg {  
+padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+
+}
 
 
