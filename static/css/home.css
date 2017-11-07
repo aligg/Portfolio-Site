@@ -31,9 +31,6 @@
     font-weight: bold;
     text-transform: uppercase;
 }
-#about {
-    padding: 40px;
-}
 
 section {
     margin-top: 50px;
@@ -50,6 +47,11 @@ p { color: #1B4079;
 }
 
 h2 {
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    color: #1B4079;
+}
+
+h5 {
     font-family: Roboto, Helvetica, Arial, sans-serif;
     color: #1B4079;
 }
