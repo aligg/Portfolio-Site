@@ -13,11 +13,10 @@
 .needspadding {
   padding:40px;
 }
-/*.jumbotron {
-    background-color: #F7F7F2;
-    margin: 20px 60px 20px 60px;
-}*/
-
+.everything {
+  margin-left: 8%;
+  margin-right: 8%;
+}
 .navbar {
     background-color: #3E78B2;
 
@@ -52,6 +51,8 @@ p { color: #1B4079;
 h2 {
     font-family: Roboto, Helvetica, Arial, sans-serif;
     color: #1B4079;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 h4 {
